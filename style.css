@@ -1,0 +1,135 @@
+/* A CSS reset. It is used to make sure that all browsers render the elements in the same way. */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Setting the background color of the body to #14101f and the height to 100vh. */
+body {
+  height: 100vh;
+  background: #14101f;
+}
+
+/* Setting the width of the container to 50% of the screen, and the minimum width to 450px. It is also
+setting the position to absolute, and the transform to translate(-50%, -50%). It is also setting the
+top and left to 50%, and the background to #25203a. It is also setting the border-radius to 10px,
+and the padding to 30px 20px. */
+.container {
+  width: 50%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #25203a;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+/* Setting the position of the newtask element to relative. */
+#newtask {
+  position: relative;
+}
+
+/* Setting the width of the input to 75%, the height to 45px, the font-family to Poppins, the font-size
+to 15px, the border to none, the outline to none, the padding to 12px, the color to #111111, the
+font-weight to 500, the position to relative, and the border-radius to 5px. */
+#newtask input {
+  width: 75%;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* Setting the outline to none and the border-color to #00D8FF. */
+#newtask input:focus {
+  outline: none;
+  border-color: #00D8FF;
+}
+
+/* Setting the position of the button to relative, the float to right, the width to 20%, the height to
+45px, the border-radius to 5px, the font-family to Poppins, the font-weight to 500, the font-size to
+16px, the background-color to #00D8FF, the border to none, the color to #1d1515, the cursor to
+pointer, the font-weight to bold, and the outline to none. */
+#newtask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #00D8FF;
+  border: none;
+  color: #1d1515;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+/* Setting the margin-top to 20px, the border-radius to 10px, the width to 100%, and the position to
+relative. */
+#tasks {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+/* Setting the background-color to #90d4ff, the height to 50px, the margin-bottom to 8px,
+the padding to 5px 10px, the display to flex, the border-radius to 5px, the align-items to center,
+the
+justify-content to space-between, the border to 1px solid #939697, the cursor to pointer, and the
+font-weight to bold. */
+.task {
+  background-color: #90d4ff;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Setting the font-family to Poppins, the font-size to 15px, and the font-weight to 400. */
+.task span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Setting the background-color to #1c182b, the color to #FE4CFF, the height to 100%, the
+width to 40px, the border-radius to 5px, the font-weight to bold, the border to none, the cursor to
+pointer, the border-radius to 100%, and the outline to none. */
+.task button {
+  background-color: #1c182b;
+  color: #FE4CFF;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  outline: none;
+}
+
+/* Adding a line through the text. */
+.completed {
+  text-decoration: line-through;
+}
